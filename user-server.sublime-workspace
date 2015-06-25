@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"http",
+				"httprouter	 package ρ"
+			],
+			[
 				"Ge",
 				"GenericResponse"
 			]
@@ -12,11 +16,35 @@
 	"buffers":
 	[
 		{
+			"file": "server.go",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "core/server.go",
+			"settings":
+			{
+				"buffer_size": 644,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "models/user.go",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "main.go",
 			"settings":
 			{
-				"buffer_size": 607,
-				"line_ending": "Unix"
+				"buffer_size": 989,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -65,10 +93,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jacob/gocode/src/github.com/jacob-ebey/user-server"
+		"/C/Users/Jacob/Documents/Go/src/github.com/jacob-ebey/user-server",
+		"/C/Users/Jacob/Documents/Go/src/github.com/jacob-ebey/user-server/core"
 	],
 	"file_history":
 	[
+		"/C/Users/Jacob/Documents/Go/src/github.com/jacob-ebey/user-server/user-server.sublime-project",
+		"/C/Users/Jacob/Documents/Go/src/github.com/jacob-ebey/user-server/main.go",
 		"/home/jacob/.config/sublime-text-3/Packages/GoSublime/USAGE.md",
 		"/home/jacob/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
 		"/home/jacob/.config/sublime-text-3/Packages/GoSublime/9o.md",
@@ -109,24 +140,82 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "main.go",
+					"file": "server.go",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 607,
+						"buffer_size": 630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								29
+								457,
+								457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "core/server.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "models/user.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -137,7 +226,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/GoSublime/syntax/GoSublime-Go.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -228,7 +346,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 258.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

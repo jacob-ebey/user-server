@@ -2,6 +2,12 @@
 	"folders":
 	[
 		{
+			"file_exclude_patterns":
+			[
+				".gitignore",
+				"*.exe",
+				"*.sublime-project"
+			],
 			"path": "."
 		}
 	]
